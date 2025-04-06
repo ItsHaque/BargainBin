@@ -1,0 +1,8 @@
+flutter_native_splash:
+  color: "#ffc9f1"           # Background color (match your palette)
+  # image: assets\BargainBinSplashScreen.png   # Path to your splash image (1024x1024 recommended)
+  android: true              # Enable Android
+  ios: true                  # Enable iOS
+  # branding: assets\BargainBinLogo.png  # Optional: Overlay logo (centered)
+  fullscreen: true                 # Stretch image to fill screen
+  # web: false                 # Disable if not needed
