@@ -14,7 +14,10 @@ const supabaseKey = String.fromEnvironment('SUPABASE_KEY');
 
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
-  await Supabase.initialize(url: supabaseUrl, anonKey: supabaseKey);
+  await Supabase.initialize(
+    url: supabaseUrl, 
+    anonKey: supabaseKey
+  );
 
   runApp(const MyApp());
 }
