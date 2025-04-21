@@ -122,7 +122,7 @@ class _ProfileState extends State<Profile> {
               ),
               const SizedBox(height: 5,),
               ElevatedButton(
-                onPressed:()=> Navigator.pushNamed(context, '/auth'),
+                onPressed:()=> Navigator.pushNamed(context, '/signup'),
                 style: ElevatedButton.styleFrom(
                         backgroundColor: const Color(0xFF5E35B1),  // Background color
                         foregroundColor: const Color(0xFFFFFFFF),             // Text color
